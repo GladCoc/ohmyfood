@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Ohmyfood_Accueil</title>
+	
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<!--MAIN-->
+
+<body>
+	<div class="loader">
+		<span class="spinner"></span>
+		<img src="img/logo-ohmyfood.png" alt="ohmyfood" class="logo">
+	</div>
+
+	<div class="container">
+	
+	<!----CARTOUCHE-ACCUEIL----762px--------------------------->
+	<header>
+
+		<div class="titre_principal">
+			<img src="img/logo-ohmyfood.png" alt="ohmyfood" class="logo">
+		</div>
+
+	</header>
+
+
+	<main>
+		<!--FORMULAIRE-VILLE------------------------------->
+		<section>
+			<div class="formulaire">
+				<form method="post" action="traitement.php">	
+					<div class="label_search">
+						<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+						<label for="ville"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i></label>
+						<input type="text" name="ville" id="ville" placeholder="Paris, Belleville">
+					</div>
+					<div class="instruction">
+						<span class="titre_inst">Réserver le menu qui vous convient</span>
+						<span class="sous_titre_inst">Découvrez des restaurants d'exception, sélectionnés par nos soins.</span>
+					</div>
+
+					<div class="submit_search">
+						<input class="submit_search" type="submit" value="Explorer nos restaurants" />
+					</div>
+
+				</form>
+			</div>
+		</section>
+
+
+<!---FONCTIONNEMENT----------------------------------->
+		<aside>
+			<div class="fonctionnement">
+				<h2>Fonctionnement</h2>
+				<div class="one_two_three">
+					<span class="num">1</span>
+					<i class="fas fa-mobile-alt" aria-hidden="true"></i>
+					<span class="fonct_descript">Choisissez un restaurant</span>
+
+				</div>
+				<div class="one_two_three">
+					<span class="num">2</span>
+					<i class="fas fa-list" aria-hidden="true"></i>
+					<span class="fonct_descript">Composez votre menu</span>
+				</div>
+				<div class="one_two_three">
+					<span class="num">3</span>
+					<i class="fas fa-store" aria-hidden="true"></i>
+					<span class="fonct_descript">Dégustez au restaurant</span>
+				</div>
+			</div>
+		</aside>
+
+		<!----RESTAURANTS-------------------------------->
+		<article>
+			<div class="titre_second">
+				<H2>Restaurants</H2>
+			</div>
+			<div class="item-rest-first">
+				<a class="img-rest restau1" href="index2.html">
+					<span class="tag-new">Nouveau</span>
+				</a>
+				<div class="info-rest">
+					<div class="info-details">
+						<h3>La palette du goùt</h3>
+						<span class="place">Ménilmontant</span>
+					</div>
+					<div class="btn-favorite">
+						<i class="far fa-heart btn-bw"></i>
+						<i class="fa fa-solid fa-heart btn-color"></i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="item-rest-two">
+				<a class="img-rest restau2"
+					href="menu-a-la-francaise.html">
+					<span class="tag-new">Nouveau</span>
+				</a>
+				<div class="info-rest">
+					<div class="info-details">
+						<h3>La note enchantée</h3>
+						<span class="place">Charonne</span>
+					</div>
+					<div class="btn-favorite">
+						<i class="far fa-heart btn-bw"></i>
+						<i class="fa fa-solid fa-heart btn-color"></i>
+					</div>
+				</div>
+			</div>
+			<div class="item-rest-third">
+				<a class="img-rest restau3" href="menu-a-la-francaise.html">
+					
+				</a>
+				<div class="info-rest">
+					<div class="info-details">
+						<h3>A la française</h3>
+						<span class="place">Cité Rouge</span>
+					</div>
+					<div class="btn-favorite">
+						<i class="far fa-heart btn-bw"></i>
+						<i class="fa fa-solid fa-heart btn-color"></i>
+					</div>
+				</div>
+			</div>
+			<div class="item-rest-fourth">
+				<a class="img-rest restau4" href="index2.html">
+					
+				
+				</a>
+				<div class="info-rest">
+					<div class="info-details">
+						<h3>Le délice des sens</h3>
+						<span class="place">Folle Méricourt</span>
+					</div>
+					<div class="btn-favorite">
+						<i class="far fa-heart btn-bw"></i>
+						<i class="fa fa-solid fa-heart btn-color"></i>
+					</div>
+				</div>
+			</div>
+			
+		</article>
+	</main>
+	<!----PIED DE PAGE-------------------------------->
+	<footer>
+
+		<h2>ohmyfood</h2>
+
+		<div class="fin_page">
+			<ul class="fin_page_list">
+				<li class="mention_sup">
+					<i class="fas fa-utensils" aria-hidden="true"></i>
+					<a href="#">Proposer un restaurant</a>
+				</li>
+				<li class="mention_sup">
+					<i class="fas fa-hands-helping" aria-hidden="true"></i>
+					<a href="#">Devenir partenaire</a>
+				</li>
+				<li><a href="#">Mentions légales</a>
+				</li>
+				<li><a href="mailto:contact@davidgaillard.com">Contact</a>
+				</li>
+				<!----Lien vers adresse email-->
+			</ul>
+		</div>
+	</footer>
+
+</body>
+
+</html>
+
+
+
+
+<!----ICONES------------------------------
+mobile====<i class="fas fa-mobile-alt"></i>
+coeur====<i class="fas fa-heart"></i><i class="fal fa-heart"></i>
+Fourchettes====<i class="fal fa-utensils"></i>
+flêche gauche=====<i class="fas fa-arrow-left"></i>
+list====<i class="fas fa-list"></i>
+map====<i class="fas fa-map-marker-alt"></i>
+partenaire====<i class="fas fa-hands-helping"></i>
+check====<i class="far fa-check-circle"></i>
+cercle plein====<i class="fas fa-circle"></i>
+restaurant====<i class="fas fa-store"></i>
+champagne===<i class="far fa-glass-cheers"></i>
+cravate====<i class="fas fa-user-tie"></i>
+chef=====<i class="fas fa-hat-chef"></i>
+chevron====<i class="fal fa-chevron-circle-down"></i>
+chevron plein===<i class="fad fa-chevron-circle-down"></i>
+
+----ICONES--------------------------->
+
+
+
+
