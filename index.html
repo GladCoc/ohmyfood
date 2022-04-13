@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<!--MAIN-->
+
 
 <body>
 	<div class="loader">
@@ -28,7 +28,8 @@
 
 	<div class="container">
 	
-	<!----CARTOUCHE-ACCUEIL----762px--------------------------->
+	
+<!----CARTOUCHE-ACCUEIL----762px--------------------------->
 	<header>
 
 		<div class="titre_principal">
@@ -39,7 +40,7 @@
 
 
 	<main>
-		<!--FORMULAIRE-VILLE------------------------------->
+<!--FORMULAIRE-VILLE------------------------------->
 		<section>
 			<div class="formulaire">
 				<form method="post" action="traitement.php">	
@@ -58,6 +59,7 @@
 					</div>
 
 				</form>
+				<a class="identity"></a>
 			</div>
 		</section>
 
@@ -65,7 +67,9 @@
 <!---FONCTIONNEMENT----------------------------------->
 		<aside>
 			<div class="fonctionnement">
-				<h2>Fonctionnement</h2>
+				<a class="titre_fonct">
+					<h2>Fonctionnement</h2>
+				</a>
 				<div class="one_two_three">
 					<span class="num">1</span>
 					<i class="fas fa-mobile-alt" aria-hidden="true"></i>
@@ -85,15 +89,16 @@
 			</div>
 		</aside>
 
-		<!----RESTAURANTS-------------------------------->
+<!----RESTAURANTS-------------------------------->
 		<article>
 			<div class="titre_second">
 				<H2>Restaurants</H2>
 			</div>
-			<div class="item-rest-first">
-				<a class="img-rest restau1" href="index2.html">
+			<a class="item-rest-first" href="la-palette-du-gout.html">
+				
+				<div class="img-rest restau1" >
 					<span class="tag-new">Nouveau</span>
-				</a>
+				</div>
 				<div class="info-rest">
 					<div class="info-details">
 						<h3>La palette du goùt</h3>
@@ -104,13 +109,13 @@
 						<i class="fa fa-solid fa-heart btn-color"></i>
 					</div>
 				</div>
-			</div>
+			</a>
 			
-			<div class="item-rest-two">
-				<a class="img-rest restau2"
-					href="menu-a-la-francaise.html">
+			<a class="item-rest-two" href="la-note-enchantee.html">
+				<div class="img-rest restau2"
+					>
 					<span class="tag-new">Nouveau</span>
-				</a>
+			</div>
 				<div class="info-rest">
 					<div class="info-details">
 						<h3>La note enchantée</h3>
@@ -121,11 +126,11 @@
 						<i class="fa fa-solid fa-heart btn-color"></i>
 					</div>
 				</div>
-			</div>
-			<div class="item-rest-third">
-				<a class="img-rest restau3" href="menu-a-la-francaise.html">
+			</a>
+			<a class="item-rest-third" href="menu-a-la-francaise.html">
+				<div class="img-rest restau3" >
 					
-				</a>
+				</div>
 				<div class="info-rest">
 					<div class="info-details">
 						<h3>A la française</h3>
@@ -136,12 +141,10 @@
 						<i class="fa fa-solid fa-heart btn-color"></i>
 					</div>
 				</div>
-			</div>
-			<div class="item-rest-fourth">
-				<a class="img-rest restau4" href="index2.html">
-					
-				
-				</a>
+			</a>
+			<a class="item-rest-fourth" href="le-delice-des-sens.html">
+				<div class="img-rest restau4" >
+				</div>
 				<div class="info-rest">
 					<div class="info-details">
 						<h3>Le délice des sens</h3>
@@ -152,11 +155,10 @@
 						<i class="fa fa-solid fa-heart btn-color"></i>
 					</div>
 				</div>
-			</div>
-			
+			</a>
 		</article>
 	</main>
-	<!----PIED DE PAGE-------------------------------->
+<!----PIED DE PAGE-------------------------------->
 	<footer>
 
 		<h2>ohmyfood</h2>
@@ -175,11 +177,12 @@
 				</li>
 				<li><a href="mailto:contact@davidgaillard.com">Contact</a>
 				</li>
-				<!----Lien vers adresse email-->
+<!----Lien vers adresse email-->
 			</ul>
 		</div>
+	
 	</footer>
-
+</div>
 </body>
 
 </html>

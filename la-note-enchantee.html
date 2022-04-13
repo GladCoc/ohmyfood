@@ -11,57 +11,52 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Shrikhand&display=swap"
 		rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-		<link rel="stylesheet" href="css/styles.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
-
 <body>
-	
-<!----CARTOUCHE-ACCUEIL----762px--------------------------->
-		<header>
-			
-			<div class="titre_fleche">
-				<a  class="fleche_retour" href="index.html">
+
+	<!----CARTOUCHE-ACCUEIL----762px--------------------------->
+	<header>
+
+		<div class="titre_fleche">
+			<a class="fleche_retour" href="index.html">
 				<i class="fas fa-arrow-left" aria-hidden="true"></i>
-				</a>
-				<img src="img/logo-ohmyfood.png" alt="ohmyfood" class="logo">
+			</a>
+			<img src="img/logo-ohmyfood.png" alt="ohmyfood" class="logo">
+		</div>
+
+	</header>
+
+	<main class="card_container">
+		<!---IMAGE----------------------------------->
+
+		<div class="photo_resto">
+			<div class="wrapper restau2">
 			</div>
+		</div>
 
-		</header>
+		<!---MENU-GLOBAL----------------------------------->
 
-
-
-
-		<main class="card_container">
-<!---IMAGE----------------------------------->
-			
-			<div class="photo_resto">
-				<div class="wrapper restau2">
+		<div class="les_menus">
+			<div class="titre_resto">
+				<h1>La note enchantée</h1>
+				<div class="btn-favorite">
+					<i class="far fa-heart btn-bw"></i>
+					<i class="fa fa-solid fa-heart btn-color"></i>
 				</div>
-			</div>		
-		
-<!---MENU-GLOBAL----------------------------------->
-
-			<div class="les_menus">
-				<div class="titre_resto">
-					<h1>La note enchantée</h1>
-					<div class="btn-favorite">
-						<i class="far fa-heart btn-bw"></i>
-						<i class="fa fa-solid fa-heart btn-color"></i>
-					</div>
-				</div>
-<!---FORMULAIRE_MENU----------------------------------->
-				<form class="menu" method="menu" action="traitement.php">
-					<div class="category">
-<!---FORMULAIRE_ENTREES----------------------------------->						
+			</div>
+			<!---FORMULAIRE_MENU----------------------------------->
+			<form class="menu" method="menu" action="traitement.php">
+				<div class="category">
+					<!---FORMULAIRE_ENTREES----------------------------------->
 					<div class="type_menu_ent">
-						<div class="titre_menu">	
-						<span class="titre_menu_decor">ENTR</span>EES
-					</div>
+						<div class="titre_menu">
+							<span class="titre_menu_decor">ENTR</span>EES
+						</div>
 						<label class="tile_plate">
 							<span class="text_menu">
 								<span class="title_plate">Noix de coquilles Saint-Jacques</span>
@@ -70,23 +65,23 @@
 							<span class="prix">
 								40€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="entree_one"/>
+							<input class="chbx_plate_selected" type="checkbox" name="entree_one" />
 							<span class="icon-check">
-							<i class="fa fal fa-chevron-circle-down check_chevron"></i>
+								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
-						
+
 						<label class="tile_plate">
 							<span class="text_menu">
-								<span class="title_plate">Caviar osciètre 
-									
-									</span>
+								<span class="title_plate">Caviar osciètre
+
+								</span>
 								<span class="subtitle_plate">Sur blini à la farine de blé noir</span>
 							</span>
 							<span class="prix">
 								35€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="entree_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="entree_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
@@ -100,7 +95,7 @@
 							<span class="prix">
 								20€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="entree_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="entree_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
@@ -113,13 +108,13 @@
 							<span class="prix">
 								35€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="entree_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="entree_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
 					</div>
-<!---FORMULAIRE_PLATS----------------------------------->						
+					<!---FORMULAIRE_PLATS----------------------------------->
 					<div class="type_menu_pla">
 						<div class="titre_menu">
 							<span class="titre_menu_decor">PLAT</span>S
@@ -132,7 +127,7 @@
 							<span class="prix">
 								40€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="plat_one"/>
+							<input class="chbx_plate_selected" type="checkbox" name="plat_one" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
@@ -146,12 +141,12 @@
 							<span class="prix">
 								35€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="plat_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="plat_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
-						
+
 						<label class="tile_plate">
 							<span class="text_menu">
 								<span class="title_plate">Mijoté de queue de boeuf</span>
@@ -160,18 +155,18 @@
 							<span class="prix">
 								44€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="plat_three"/>
+							<input class="chbx_plate_selected" type="checkbox" name="plat_three" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
 					</div>
-<!---FORMULAIRE_DESSERTS----------------------------------->						
+					<!---FORMULAIRE_DESSERTS----------------------------------->
 					<div class="type_menu_des">
 						<div class="titre_menu">
 							<span class="titre_menu_decor">DESS</span>ERTS
 						</div>
-					
+
 						<label class="tile_plate">
 							<span class="text_menu">
 								<span class="title_plate">Macaron noisette et chocolat</span>
@@ -180,12 +175,12 @@
 							<span class="prix">
 								18€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="dessert_one"/>
+							<input class="chbx_plate_selected" type="checkbox" name="dessert_one" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
-					
+
 						<label class="tile_plate">
 							<span class="text_menu">
 								<span class="title_plate">Baba au rhum revisité</span>
@@ -194,12 +189,12 @@
 							<span class="prix">
 								22€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="dessert_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="dessert_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
-					
+
 						<label class="tile_plate">
 							<span class="text_menu">
 								<span class="title_plate">Tarte au citron meringuée</span>
@@ -208,43 +203,44 @@
 							<span class="prix">
 								23€
 							</span>
-							<input class="chbx_plate_selected" type="checkbox" name="dessert_two"/>
+							<input class="chbx_plate_selected" type="checkbox" name="dessert_two" />
 							<span class="icon-check">
 								<i class="fa fal fa-chevron-circle-down check_chevron"></i>
 							</span>
 						</label>
 					</div>
-					
+
 					<div class="submit_search">
 						<input class="submit_search" type="submit" value="Commander" />
 					</div>
-				</form>
-			</div>
-		</main>
+				</div>
+			</form>
+		</div>
+	</main>
 
-		<!----PIED DE PAGE-------------------------------->
-		<footer>
+	<!----PIED DE PAGE-------------------------------->
+	<footer>
 
-			<h2>ohmyfood</h2>
+		<h2>ohmyfood</h2>
 
-			<div class="fin_page">
-				<ul class="fin_page_list">
-					<li class="mention_sup">
-						<i class="fas fa-utensils" aria-hidden="true"></i>
-						<a href="#">Proposer un restaurant</a>
-					</li>
-					<li class="mention_sup">
-						<i class="fas fa-hands-helping" aria-hidden="true"></i>
-						<a href="#">Devenir partenaire</a>
-					</li>
-					<li><a href="#">Mentions légales</a>
-					</li>
-					<li><a href="mailto:contact@davidgaillard.com">Contact</a>
-					</li>
-					
-				</ul>
-			</div>
-		</footer>
+		<div class="fin_page">
+			<ul class="fin_page_list">
+				<li class="mention_sup">
+					<i class="fas fa-utensils" aria-hidden="true"></i>
+					<a href="#">Proposer un restaurant</a>
+				</li>
+				<li class="mention_sup">
+					<i class="fas fa-hands-helping" aria-hidden="true"></i>
+					<a href="#">Devenir partenaire</a>
+				</li>
+				<li><a href="#">Mentions légales</a>
+				</li>
+				<li><a href="mailto:contact@davidgaillard.com">Contact</a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
 
 	</div>
 </body>
